@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_aboutus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_bio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_eye.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_fainalmain.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_heart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_saved.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_splashsreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_submit.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_submited.xml" value="0.20416666666666666" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/activity_tuto.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/fragment_five.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/fragment_four.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/fragment_one.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/fragment_sexfragment.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/fragment_six.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/fragment_three.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/fragment_two.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/liked_layout.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/nav_header_main.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/recycle_layout.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/layout/searchlist.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
+        <entry key="..\:/Harsh Application/Live App/kill/KillerBio/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/ramdev/Desktop/KillerBio/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

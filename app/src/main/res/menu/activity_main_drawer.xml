@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item tools:ignore="MenuTitle">
+        <menu>
+
+            <item
+                android:id="@+id/nav_tuto"
+                android:icon="@drawable/tutuoimage"
+                android:title="How to Add Hashtag" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/question"
+                android:title="About Us"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayout"
+    android:background="@color/forall"
+    tools:context="com.hashtag.hashtaggenrator.hashtagforinstagram.freehashtag.hasham.Activity.submit"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1a1a1a"
+        android:layout_gravity="center"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/_15sdp"
+                android:id="@+id/text"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="#ffffff"
+                android:text="Submit Hashtag"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="@dimen/_200sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/editshape"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hello"
+                android:background="@drawable/editshape"
+                android:visibility="invisible"
+                android:id="@+id/biotext"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/editbio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/editshape"
+                android:gravity="top|start"
+                android:hint="Write Hashtag"
+                android:inputType="textMultiLine"
+                android:padding="@dimen/_10sdp"
+                android:scrollbars="vertical"
+                android:textColor="#000"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:background="@drawable/editshape"
+            android:layout_weight=".3"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="@dimen/_180sdp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:text="Submit"
+                android:textColor="#ffff"
+                android:backgroundTint="@color/forall"
+                android:id="@+id/submit"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/share"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_weight="1"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/sharemulticolor"/>
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:src="@drawable/edit"
+                android:id="@+id/edit"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/done"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/donelottie"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progress"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:indeterminate="false" />
+
+    </LinearLayout>
+
+    <com.mopub.mobileads.MoPubView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/ad_vew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:moPubAdSize="height_50" />
+
+</LinearLayout>

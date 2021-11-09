@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/forall"
+    android:layout_height="match_parent"
+    tools:context="com.hashtag.hashtaggenrator.hashtagforinstagram.freehashtag.hasham.Activity.TutoActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#1a1a1a"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/_15sdp"
+                android:id="@+id/text"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="#ffffff"
+                android:text="How To Add Hashtag"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagertuto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_weight="10"
+        tools:layout_editor_absoluteX="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:id="@+id/nextbutton"
+            android:text="Next"
+            android:layout_height="@dimen/_50sdp"/>
+
+        <Button
+            android:layout_width="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:id="@+id/donebutton"
+            android:text="Done"
+            android:visibility="gone"
+            android:layout_height="@dimen/_50sdp"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

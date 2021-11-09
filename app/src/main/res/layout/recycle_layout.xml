@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forall"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editshape"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hello"
+                android:background="@drawable/editshape"
+                android:visibility="visible"
+                android:id="@+id/biotext"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#000"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:scrollbars="vertical"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#000"
+                android:background="@drawable/editshape"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:id="@+id/editbio"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+            android:background="@drawable/editshape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/heart"
+                android:layout_margin="@dimen/_5sdp"
+                android:padding="@dimen/_2sdp"
+                android:background="@drawable/backroundcorner"
+                android:id="@+id/heart"/>
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backroundcorner"
+                android:layout_margin="@dimen/_5sdp"
+                android:src="@drawable/copy"
+                android:padding="@dimen/_3sdp"
+                android:id="@+id/copy"/>
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eye"
+
+                android:background="@drawable/backroundcorner"
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/eye"/>
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+
+                android:padding="@dimen/_4sdp"
+                android:background="@drawable/backroundcorner"
+                android:layout_margin="@dimen/_5sdp"
+                android:src="@drawable/share"
+                android:id="@+id/share"/>
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit"
+                android:padding="@dimen/_3sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/backroundcorner"
+                android:id="@+id/edit"/>
+
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:padding="@dimen/_2sdp"
+                android:background="@drawable/backroundcorner"
+                android:layout_margin="@dimen/_5sdp"
+                android:src="@drawable/done"
+                android:id="@+id/done"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

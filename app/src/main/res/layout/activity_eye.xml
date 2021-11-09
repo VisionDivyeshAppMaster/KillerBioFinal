@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forall"
+    tools:context="com.hashtag.hashtaggenrator.hashtagforinstagram.freehashtag.hasham.Activity.EyeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#1a1a1a"
+    android:layout_gravity="center"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/_15sdp"
+            android:id="@+id/text"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="#ffffff"
+            android:text="Instagram"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/forall">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:src="@drawable/show" />
+
+        <TextView
+            android:id="@+id/eyetextview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_57sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:text="Hello"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
